@@ -86,6 +86,7 @@ jobs:
           tar -zcf Yaagl.tar.gz Yaagl.app
           tar -zcf "Yaagl OS.tar.gz" "Yaagl OS.app"
           tar -zcf "Yaagl Honkai Global.tar.gz" "Yaagl Honkai Global.app"
+          tar -zcf "Yaagl ZZZ OS.tar.gz" "Yaagl ZZZ OS.app"
       - name: Upload artifact - app
         uses: actions/upload-artifact@v7
         with:
@@ -96,3 +97,8 @@ jobs:
         with:
            name: app-os
            path: "Yaagl OS.tar.gz"
+      - name: Upload artifact - app-zzz-os
+        uses: actions/upload-artifact@v7
+        with:
+           name: app-os
+           path: "Yaagl ZZZ OS.tar.gz"
