@@ -92,7 +92,7 @@ jobs:
           name: app
           path: Yaagl.tar.gz
       - name: Upload artifact - app-os
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
            name: app-os
            path: "Yaagl OS.tar.gz"
