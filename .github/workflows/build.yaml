@@ -100,5 +100,5 @@ jobs:
       - name: Upload artifact - app-zzz-os
         uses: actions/upload-artifact@v7
         with:
-           name: app-os
+           name: app-zzz-os
            path: "Yaagl ZZZ OS.tar.gz"
